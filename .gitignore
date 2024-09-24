@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.Uploads
+*.Uploads
+.shared_data
+.data
+*.jpg
+*.mp4
+*.json
+*.vtt
+*.env
+*.manifest
+*.txn
+*.csv
+
+# Virtual Environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv
+# IDEs
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Streamlit
+*.streamlit/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Other files
+*.egg-info/
+dist/
+build/
+*.egg
+*.whl
