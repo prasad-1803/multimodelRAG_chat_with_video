@@ -15,23 +15,21 @@
 - Requests: For API calls to upload videos and send chat messages.
 
 # Getting Started
-**Clone the repository:**
 
 ```bash
-Copy code
+**Clone the repository:**
+
 git clone <repository-url>
 cd multimodal-rag-chat
 Install the required packages:
 ```
 
 ```bash
-Copy code
 pip install -r requirements.txt
 Run the Streamlit application:
 ```
 
 ```bash
-Copy code
 streamlit run app.py
 Open your web browser and navigate to http://localhost:8501 to access the application.
 ```
