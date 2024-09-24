@@ -13,7 +13,7 @@ if youtube_url:
 
     # Create a button to send the YouTube URL to the backend
     if st.button("Send Video URL"):
-        response = requests.post("http://127.0.0.1:5000/upload", json={"video_url": youtube_url})
+        response = requests.post("http://127.0.0.1:5000/save-url", json={"video_url": youtube_url})
 
         if response.status_code == 200:
             st.write("Video URL sent successfully:", youtube_url)
